@@ -5,3 +5,4 @@ const user :(string| number)[] = [1, "abc"];
 
 let rgb : [number, number, number] = [1, 1, 1]
 // todo strict comparison only 3 values of numbers are allowed.
+// tuple ma sirf jo define kiya ha wohi aa sakta ha 

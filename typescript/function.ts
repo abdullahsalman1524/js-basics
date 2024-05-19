@@ -30,3 +30,17 @@ function itsMe(user: User):User{
   return {username: "abdulah",password: "123", age:123}
 }
 itsMe({username: "abdulah",password: "123", age:123})
+
+
+type X = {
+  x:number;
+  y: number;
+
+}
+
+// ab X wali properties b is ma accessible hain
+type Y = X & {
+  x1:number;
+  y2: number;
+
+}
